@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'add-to-cart';
+  title = '3Pillar Shopping';
 
   constructor(private http: HttpClient) {}
 }

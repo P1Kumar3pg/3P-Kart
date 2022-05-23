@@ -10,6 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FilterPipe } from './shared/filter.pipe';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgHttpLoaderModule } from 'ng-http-loader';
+import { CheckoutComponent } from './component/checkout/checkout.component'
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NgHttpLoaderModule } from 'ng-http-loader';
     HeaderComponent,
     CartComponent,
     ProductsComponent,
-    FilterPipe
+    FilterPipe,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
